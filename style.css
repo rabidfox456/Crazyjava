@@ -1,0 +1,315 @@
+<style>
+body {
+  
+  font-family: "Simplon","Monoglyceride","Fluorine", "Bauhaus 93";
+  font-size: 30px;
+  color:rgb(50,150,255);
+  background: #1A1A1A;
+}
+
+
+txt{
+  
+  font-family:"Monoglyceride";
+  
+}
+
+.And{
+  
+  color:rgb(0,255,0);
+  
+}
+
+.form-field,
+ label {
+ float: left;
+ width: 10em;
+ margin-right: 1em;
+ text-align: right;
+ }
+ 
+ right-aligned-labels{
+ float: left;
+ width: 10em;
+ margin-right: 1em;
+ text-align: right;
+ }
+ 
+*{
+    transform: rotate(1800deg);
+    transition: 1s;
+}
+ 
+
+  #HCB_comment_box #hcb_form_content,
+  #HCB_comment_box #hcb_form_email, 
+  #HCB_comment_box #hcb_form_name, 
+  #HCB_comment_box #hcb_form_website {
+    background-color: rgb(255,255,255);
+  }
+
+#HCB_comment_box blockquote {
+    color:rgb(100,100,100);
+}
+
+ input #hcb_form_name {
+    color:blue;
+    font-size:18px;
+    font-family: "Simplon","Monoglyceride","Fluorine", "Bauhaus 93";
+    background-color:darkgreen;
+  }
+
+/*body {
+    height:2000px;
+    background-image: url("http://rabidfox.neocities.org/polka-40-40%20(1).png");
+    background-attachment:scroll;
+    background-position:center top; 
+    
+}*/
+
+.titleH {
+  
+  font-size: 100px;
+  text-align: center;
+  font-family: "3D Thirteen Pixel Fonts";
+  
+}
+
+.titleS{
+  
+  font-size: 35px;
+  text-align: center;
+  font-family: "3D Thirteen Pixel Fonts";
+  
+}
+
+.sideN{
+  
+  font-size: 15px;
+  
+}
+
+#HCB_comment_box .submit {
+    background:rgb(255,255,255); /* Clear twitter bootstrap style. */
+    background-color:green;
+    border:1px solid darkgreen;
+    color: white;
+  }
+
+
+
+#share-buttons img {
+
+  width: 35px;
+
+  padding: 5px;
+
+  border: 0;
+
+  box-shadow: 0;
+
+  display: inline;
+
+}
+
+.button {
+   border: 1px solid #0a3c59;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #06426c;
+   font-size: 18px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+ .button:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+   }
+ .button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+   }
+  
+.form-container {
+   border: 1px solid #000000;
+   background: #bd7b2f;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ff8400), to(#bd7b2f));
+   background: -webkit-linear-gradient(top, #ff8400, #bd7b2f);
+   background: -moz-linear-gradient(top, #ff8400, #bd7b2f);
+   background: -ms-linear-gradient(top, #ff8400, #bd7b2f);
+   background: -o-linear-gradient(top, #ff8400, #bd7b2f);
+   background-image: -ms-linear-gradient(top, #ff8400 0%, #bd7b2f 100%);
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   font-family: "Simplon","Monoglyceride","Fluorine", "Bauhaus 93";
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:300px;
+   }
+ .form-field {
+   border: 1px solid #000000;
+   background: #ffffff;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #002fff;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   }
+ .form-field:focus {
+   background: #7bc7b9;
+   color: #5500ff;
+   }
+ .form-container h2 {
+   text-shadow: #00e6ff 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+ .form-title {
+   margin-bottom:10px;
+   color: #1100ff;
+   text-shadow: #00e6ff 0 1px 0;
+   }
+ .submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+ .submit-button {
+   border: 1px solid #447314;
+   background: #6aa436;
+   background: -webkit-gradient(linear, left top, left bottom, from(#8dc059), to(#6aa436));
+   background: -webkit-linear-gradient(top, #8dc059, #6aa436);
+   background: -moz-linear-gradient(top, #8dc059, #6aa436);
+   background: -ms-linear-gradient(top, #8dc059, #6aa436);
+   background: -o-linear-gradient(top, #8dc059, #6aa436);
+   background-image: -ms-linear-gradient(top, #8dc059 0%, #6aa436 100%);
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #addc7e 0 1px 0;
+   color: #31540c;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+ .submit-button:hover {
+   border: 1px solid #447314;
+   text-shadow: #31540c 0 1px 0;
+   background: #6aa436;
+   background: -webkit-gradient(linear, left top, left bottom, from(#8dc059), to(#6aa436));
+   background: -webkit-linear-gradient(top, #8dc059, #6aa436);
+   background: -moz-linear-gradient(top, #8dc059, #6aa436);
+   background: -ms-linear-gradient(top, #8dc059, #6aa436);
+   background: -o-linear-gradient(top, #8dc059, #6aa436);
+   background-image: -ms-linear-gradient(top, #8dc059 0%, #6aa436 100%);
+   color: #fff;
+   }
+ .submit-button:active {
+   text-shadow: #31540c 0 1px 0;
+   border: 1px solid #447314;
+   background: #8dc059;
+   background: -webkit-gradient(linear, left top, left bottom, from(#6aa436), to(#6aa436));
+   background: -webkit-linear-gradient(top, #6aa436, #8dc059);
+   background: -moz-linear-gradient(top, #6aa436, #8dc059);
+   background: -ms-linear-gradient(top, #6aa436, #8dc059);
+   background: -o-linear-gradient(top, #6aa436, #8dc059);
+   background-image: -ms-linear-gradient(top, #6aa436 0%, #8dc059 100%);
+   color: #fff;
+   }
+  
+a[href*="."] {
+  color: orange;
+}
+
+*{
+  
+  color: rgb(0,255,0);
+  
+}
+
+.button {
+  color: green;
+}
+
+.button-green,
+        .button-red,
+        .button-yellow,
+        .button-blue {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-green {
+            background: rgb(28, 184, 65); /* this is a green */
+        }
+
+        .button-red {
+            background: rgb(202, 60, 60); /* this is a maroon */
+        }
+
+        .button-yellow {
+            background: rgb(223, 117, 20); /* this is an orange */
+        }
+
+        .button-blue {
+            background: rgb(66, 184, 221); /* this is a light blue */
+        }
+
+
+                                                                                            
+    
+    
+    
+    
+    
+    
+    
+    </style>
